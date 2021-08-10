@@ -10,12 +10,12 @@ def main():
         user = input("Choose an option ['r' for rock, 'p' for paper or 's' for scissors]: ")
 
     if user == computer:
-        return '\nIt\'s a DRAW'
+        return '\nIt\'s a DRAW!'
 
     if youWin(user, computer):
-        return '\nYou WIN'
+        return '\nYou WIN!'
 
-    return '\nYou LOSE'
+    return '\nYou LOSE!'
 
 def youWin(user, computer):
     #rules: r > s, s > p, p > r
